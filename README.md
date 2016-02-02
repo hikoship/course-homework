@@ -1,2 +1,1 @@
-# course-homework
-codes of course homework in my 3-year study in SJTU CS department
+My course homework and projects at Shanghai Jiao Tong University (SJTU)

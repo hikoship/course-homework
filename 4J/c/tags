@@ -1,0 +1,212 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	blas/Makefile	/^AR     = ar rcv$/;"	m
+B	linear.cpp	/^		double *B, *C, *G;$/;"	m	class:Solver_MCSVM_CS	file:
+BLAS_INCLUDE	blas/blas.h	/^#define BLAS_INCLUDE$/;"	d
+C	linear.cpp	/^		double *B, *C, *G;$/;"	m	class:Solver_MCSVM_CS	file:
+C	linear.cpp	/^	double *C;$/;"	m	class:l2r_l2_svc_fun	file:
+C	linear.cpp	/^	double *C;$/;"	m	class:l2r_lr_fun	file:
+C	linear.h	/^	double C;$/;"	m	struct:parameter
+CC	Makefile	/^CC ?= gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -Wconversion -O3 -fPIC$/;"	m
+CFLAGS	blas/Makefile	/^CFLAGS = $(OPTFLAGS) $/;"	m
+CXX	Makefile	/^CXX ?= g++$/;"	m
+D	linear.cpp	/^	double *D;$/;"	m	class:l2r_l2_svc_fun	file:
+D	linear.cpp	/^	double *D;$/;"	m	class:l2r_lr_fun	file:
+FALSE	blas/blas.h	/^#define FALSE /;"	d
+FFLAGS	blas/Makefile	/^FFLAGS = $(OPTFLAGS)$/;"	m
+FILES	blas/Makefile	/^FILES = dnrm2.o daxpy.o ddot.o dscal.o $/;"	m
+G	linear.cpp	/^		double *B, *C, *G;$/;"	m	class:Solver_MCSVM_CS	file:
+GETI	linear.cpp	/^#define GETI(/;"	d	file:
+GETI	linear.cpp	/^#undef GETI$/;"	d	file:
+HEADERS	blas/Makefile	/^HEADERS = blas.h blasp.h$/;"	m
+Hv	linear.cpp	/^void l2r_l2_svc_fun::Hv(double *s, double *Hs)$/;"	f	class:l2r_l2_svc_fun
+Hv	linear.cpp	/^void l2r_lr_fun::Hv(double *s, double *Hs)$/;"	f	class:l2r_lr_fun
+I	linear.cpp	/^	int *I;$/;"	m	class:l2r_l2_svc_fun	file:
+INF	linear.cpp	/^#define INF /;"	d	file:
+INF	train.c	/^#define INF /;"	d	file:
+L1R_L2LOSS_SVC	linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon3
+L1R_LR	linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon3
+L2R_L1LOSS_SVC_DUAL	linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon3
+L2R_L1LOSS_SVR_DUAL	linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon3
+L2R_L2LOSS_SVC	linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon3
+L2R_L2LOSS_SVC_DUAL	linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon3
+L2R_L2LOSS_SVR	linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon3
+L2R_L2LOSS_SVR_DUAL	linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon3
+L2R_LR	linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon3
+L2R_LR_DUAL	linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon3
+LIBS	Makefile	/^LIBS = blas\/blas.a$/;"	m
+MAX	blas/blas.h	/^#define MAX(/;"	d
+MCSVM_CS	linear.h	/^enum { L2R_LR, L2R_L2LOSS_SVC_DUAL, L2R_L2LOSS_SVC, L2R_L1LOSS_SVC_DUAL, MCSVM_CS, L1R_L2LOSS_SVC, L1R_LR, L2R_LR_DUAL, L2R_L2LOSS_SVR = 11, L2R_L2LOSS_SVR_DUAL, L2R_L1LOSS_SVR_DUAL }; \/* solver_type *\/$/;"	e	enum:__anon3
+MIN	blas/blas.h	/^#define MIN(/;"	d
+Malloc	linear.cpp	/^#define Malloc(/;"	d	file:
+Malloc	train.c	/^#define Malloc(/;"	d	file:
+OS	Makefile	/^OS = $(shell uname)$/;"	m
+RANLIB	blas/Makefile	/^RANLIB = ranlib $/;"	m
+SHVER	Makefile	/^SHVER = 2$/;"	m
+Solve	linear.cpp	/^void Solver_MCSVM_CS::Solve(double *w)$/;"	f	class:Solver_MCSVM_CS
+Solver_MCSVM_CS	linear.cpp	/^Solver_MCSVM_CS::Solver_MCSVM_CS(const problem *prob, int nr_class, double *weighted_C, double eps, int max_iter)$/;"	f	class:Solver_MCSVM_CS
+Solver_MCSVM_CS	linear.cpp	/^class Solver_MCSVM_CS$/;"	c	file:
+TRON	tron.cpp	/^TRON::TRON(const function *fun_obj, double eps, int max_iter)$/;"	f	class:TRON
+TRON	tron.h	/^class TRON$/;"	c
+TRUE	blas/blas.h	/^#define TRUE /;"	d
+XTv	linear.cpp	/^void l2r_lr_fun::XTv(double *v, double *XTv)$/;"	f	class:l2r_lr_fun
+Xv	linear.cpp	/^void l2r_l2_svc_fun::Xv(double *v, double *Xv)$/;"	f	class:l2r_l2_svc_fun
+Xv	linear.cpp	/^void l2r_lr_fun::Xv(double *v, double *Xv)$/;"	f	class:l2r_lr_fun
+_LIBLINEAR_H	linear.h	/^#define _LIBLINEAR_H$/;"	d
+_TRON_H	tron.h	/^#define _TRON_H$/;"	d
+be_shrunk	linear.cpp	/^bool Solver_MCSVM_CS::be_shrunk(int i, int m, int yi, double alpha_i, double minG)$/;"	f	class:Solver_MCSVM_CS
+bias	linear.h	/^	double bias;            \/* < 0 if no bias term *\/  $/;"	m	struct:problem
+bias	linear.h	/^	double bias;$/;"	m	struct:model
+bias	train.c	/^double bias;$/;"	v
+blasbool	blas/blas.h	/^typedef int blasbool;$/;"	t
+check_parameter	linear.cpp	/^const char *check_parameter(const problem *prob, const parameter *param)$/;"	f
+check_probability_model	linear.cpp	/^int check_probability_model(const struct model *model_)$/;"	f
+check_regression_model	linear.cpp	/^int check_regression_model(const struct model *model_)$/;"	f
+clone	linear.cpp	/^template <class S, class T> static inline void clone(T*& dst, S* src, int n)$/;"	f	file:
+compare_double	linear.cpp	/^int compare_double(const void *a, const void *b)$/;"	f
+cross_validation	linear.cpp	/^void cross_validation(const problem *prob, const parameter *param, int nr_fold, double *target)$/;"	f
+daxpy_	blas/daxpy.c	/^int daxpy_(int *n, double *sa, double *sx, int *incx, double *sy,$/;"	f
+dcomplex	blas/blas.h	/^typedef struct { double r, i; } dcomplex;$/;"	t	typeref:struct:__anon2
+ddot_	blas/ddot.c	/^double ddot_(int *n, double *sx, int *incx, double *sy, int *incy)$/;"	f
+default_print	tron.cpp	/^static void default_print(const char *buf)$/;"	f	file:
+destroy_param	linear.cpp	/^void destroy_param(parameter* param)$/;"	f
+dnrm2_	blas/dnrm2.c	/^double dnrm2_(int *n, double *x, int *incx)$/;"	f
+do_cross_validation	train.c	/^void do_cross_validation()$/;"	f
+do_predict	predict.c	/^void do_predict(FILE *input, FILE *output)$/;"	f
+dscal_	blas/dscal.c	/^int dscal_(int *n, double *sa, double *sx, int *incx)$/;"	f
+eps	linear.cpp	/^		double eps;$/;"	m	class:Solver_MCSVM_CS	file:
+eps	linear.h	/^	double eps;	        \/* stopping criteria *\/$/;"	m	struct:parameter
+eps	tron.h	/^	double eps;$/;"	m	class:TRON
+exit_input_error	predict.c	/^void exit_input_error(int line_num)$/;"	f
+exit_input_error	train.c	/^void exit_input_error(int line_num)$/;"	f
+exit_with_help	predict.c	/^void exit_with_help()$/;"	f
+exit_with_help	train.c	/^void exit_with_help()$/;"	f
+fcomplex	blas/blas.h	/^typedef struct { float r, i; } fcomplex;$/;"	t	typeref:struct:__anon1
+feature_node	linear.h	/^struct feature_node$/;"	s
+flag_cross_validation	train.c	/^int flag_cross_validation;$/;"	v
+flag_predict_probability	predict.c	/^int flag_predict_probability=0;$/;"	v
+free_and_destroy_model	linear.cpp	/^void free_and_destroy_model(struct model **model_ptr_ptr)$/;"	f
+free_model_content	linear.cpp	/^void free_model_content(struct model *model_ptr)$/;"	f
+fun	linear.cpp	/^double l2r_l2_svc_fun::fun(double *w)$/;"	f	class:l2r_l2_svc_fun
+fun	linear.cpp	/^double l2r_l2_svr_fun::fun(double *w)$/;"	f	class:l2r_l2_svr_fun
+fun	linear.cpp	/^double l2r_lr_fun::fun(double *w)$/;"	f	class:l2r_lr_fun
+fun_obj	tron.h	/^	function *fun_obj;$/;"	m	class:TRON
+function	tron.h	/^class function$/;"	c
+get_decfun_bias	linear.cpp	/^double get_decfun_bias(const struct model *model_, int label_idx)$/;"	f
+get_decfun_coef	linear.cpp	/^double get_decfun_coef(const struct model *model_, int feat_idx, int label_idx)$/;"	f
+get_labels	linear.cpp	/^void get_labels(const model *model_, int* label)$/;"	f
+get_nr_class	linear.cpp	/^int get_nr_class(const model *model_)$/;"	f
+get_nr_feature	linear.cpp	/^int get_nr_feature(const model *model_)$/;"	f
+get_nr_variable	linear.cpp	/^int l2r_l2_svc_fun::get_nr_variable(void)$/;"	f	class:l2r_l2_svc_fun
+get_nr_variable	linear.cpp	/^int l2r_lr_fun::get_nr_variable(void)$/;"	f	class:l2r_lr_fun
+get_w_value	linear.cpp	/^static inline double get_w_value(const struct model *model_, int idx, int label_idx) $/;"	f	file:
+grad	linear.cpp	/^void l2r_l2_svc_fun::grad(double *w, double *g)$/;"	f	class:l2r_l2_svc_fun
+grad	linear.cpp	/^void l2r_l2_svr_fun::grad(double *w, double *g)$/;"	f	class:l2r_l2_svr_fun
+grad	linear.cpp	/^void l2r_lr_fun::grad(double *w, double *g)$/;"	f	class:l2r_lr_fun
+group_classes	linear.cpp	/^static void group_classes(const problem *prob, int *nr_class_ret, int **label_ret, int **start_ret, int **count_ret, int *perm)$/;"	f	file:
+i	blas/blas.h	/^typedef struct { double r, i; } dcomplex;$/;"	m	struct:__anon2
+i	blas/blas.h	/^typedef struct { float r, i; } fcomplex;$/;"	m	struct:__anon1
+index	linear.h	/^	int index;$/;"	m	struct:feature_node
+info	linear.cpp	/^static void info(const char *fmt,...) {}$/;"	f	file:
+info	linear.cpp	/^static void info(const char *fmt,...)$/;"	f	file:
+info	predict.c	/^static int (*info)(const char *fmt,...) = &printf;$/;"	v	file:
+info	tron.cpp	/^void TRON::info(const char *fmt,...)$/;"	f	class:TRON
+l	linear.cpp	/^		int w_size, l;$/;"	m	class:Solver_MCSVM_CS	file:
+l	linear.h	/^	int l, n;$/;"	m	struct:problem
+l2r_l2_svc_fun	linear.cpp	/^class l2r_l2_svc_fun: public function$/;"	c	file:
+l2r_l2_svc_fun	linear.cpp	/^l2r_l2_svc_fun::l2r_l2_svc_fun(const problem *prob, double *C)$/;"	f	class:l2r_l2_svc_fun
+l2r_l2_svr_fun	linear.cpp	/^class l2r_l2_svr_fun: public l2r_l2_svc_fun$/;"	c	file:
+l2r_l2_svr_fun	linear.cpp	/^l2r_l2_svr_fun::l2r_l2_svr_fun(const problem *prob, double *C, double p):$/;"	f	class:l2r_l2_svr_fun
+l2r_lr_fun	linear.cpp	/^class l2r_lr_fun: public function$/;"	c	file:
+l2r_lr_fun	linear.cpp	/^l2r_lr_fun::l2r_lr_fun(const problem *prob, double *C)$/;"	f	class:l2r_lr_fun
+label	linear.h	/^	int *label;		\/* label of each class *\/$/;"	m	struct:model
+liblinear_print_string	linear.cpp	/^static void (*liblinear_print_string) (const char *) = &print_string_stdout;$/;"	v	file:
+line	predict.c	/^static char *line = NULL;$/;"	v	file:
+line	train.c	/^static char *line = NULL;$/;"	v	file:
+load_model	linear.cpp	/^struct model *load_model(const char *model_file_name)$/;"	f
+main	predict.c	/^int main(int argc, char **argv)$/;"	f
+main	train.c	/^int main(int argc, char **argv)$/;"	f
+max	linear.cpp	/^template <class T> static inline T max(T x,T y) { return (x>y)?x:y; }$/;"	f	file:
+max	tron.cpp	/^template <class T> static inline T max(T x,T y) { return (x>y)?x:y; }$/;"	f	file:
+max_iter	linear.cpp	/^		int max_iter;$/;"	m	class:Solver_MCSVM_CS	file:
+max_iter	tron.h	/^	int max_iter;$/;"	m	class:TRON
+max_line_len	predict.c	/^static int max_line_len;$/;"	v	file:
+max_line_len	train.c	/^static int max_line_len;$/;"	v	file:
+max_nr_attr	predict.c	/^int max_nr_attr = 64;$/;"	v
+min	linear.cpp	/^template <class T> static inline T min(T x,T y) { return (x<y)?x:y; }$/;"	f	file:
+min	tron.cpp	/^template <class T> static inline T min(T x,T y) { return (x<y)?x:y; }$/;"	f	file:
+model	linear.h	/^struct model$/;"	s
+model_	predict.c	/^struct model* model_;$/;"	v	typeref:struct:model
+model_	train.c	/^struct model* model_;$/;"	v	typeref:struct:model
+n	linear.h	/^	int l, n;$/;"	m	struct:problem
+norm_inf	tron.cpp	/^double TRON::norm_inf(int n, double *x)$/;"	f	class:TRON
+nr_class	linear.cpp	/^		int nr_class;$/;"	m	class:Solver_MCSVM_CS	file:
+nr_class	linear.h	/^	int nr_class;		\/* number of classes *\/$/;"	m	struct:model
+nr_feature	linear.h	/^	int nr_feature;$/;"	m	struct:model
+nr_fold	train.c	/^int nr_fold;$/;"	v
+nr_weight	linear.h	/^	int nr_weight;$/;"	m	struct:parameter
+p	linear.cpp	/^	double p;$/;"	m	class:l2r_l2_svr_fun	file:
+p	linear.h	/^	double p;$/;"	m	struct:parameter
+param	linear.h	/^	struct parameter param;$/;"	m	struct:model	typeref:struct:model::parameter
+param	train.c	/^struct parameter param;$/;"	v	typeref:struct:parameter
+parameter	linear.h	/^struct parameter$/;"	s
+parse_command_line	train.c	/^void parse_command_line(int argc, char **argv, char *input_file_name, char *model_file_name)$/;"	f
+predict	linear.cpp	/^double predict(const model *model_, const feature_node *x)$/;"	f
+predict_probability	linear.cpp	/^double predict_probability(const struct model *model_, const struct feature_node *x, double* prob_estimates)$/;"	f
+predict_values	linear.cpp	/^double predict_values(const struct model *model_, const struct feature_node *x, double *dec_values)$/;"	f
+print_null	predict.c	/^int print_null(const char *s,...) {return 0;}$/;"	f
+print_null	train.c	/^void print_null(const char *s) {}$/;"	f
+print_string_stdout	linear.cpp	/^static void print_string_stdout(const char *s)$/;"	f	file:
+prob	linear.cpp	/^		const problem *prob;$/;"	m	class:Solver_MCSVM_CS	file:
+prob	linear.cpp	/^	const problem *prob;$/;"	m	class:l2r_l2_svc_fun	file:
+prob	linear.cpp	/^	const problem *prob;$/;"	m	class:l2r_lr_fun	file:
+prob	train.c	/^struct problem prob;$/;"	v	typeref:struct:problem
+problem	linear.h	/^struct problem$/;"	s
+r	blas/blas.h	/^typedef struct { double r, i; } dcomplex;$/;"	m	struct:__anon2
+r	blas/blas.h	/^typedef struct { float r, i; } fcomplex;$/;"	m	struct:__anon1
+read_problem	train.c	/^void read_problem(const char *filename)$/;"	f
+readline	predict.c	/^static char* readline(FILE *input)$/;"	f	file:
+readline	train.c	/^static char* readline(FILE *input)$/;"	f	file:
+save_model	linear.cpp	/^int save_model(const char *model_file_name, const struct model *model_)$/;"	f
+schar	linear.cpp	/^typedef signed char schar;$/;"	t	file:
+set_print_string	tron.cpp	/^void TRON::set_print_string(void (*print_string) (const char *buf))$/;"	f	class:TRON
+set_print_string_function	linear.cpp	/^void set_print_string_function(void (*print_func)(const char*))$/;"	f
+sizeI	linear.cpp	/^	int sizeI;$/;"	m	class:l2r_l2_svc_fun	file:
+solve_l1r_l2_svc	linear.cpp	/^static void solve_l1r_l2_svc($/;"	f	file:
+solve_l1r_lr	linear.cpp	/^static void solve_l1r_lr($/;"	f	file:
+solve_l2r_l1l2_svc	linear.cpp	/^static void solve_l2r_l1l2_svc($/;"	f	file:
+solve_l2r_l1l2_svr	linear.cpp	/^static void solve_l2r_l1l2_svr($/;"	f	file:
+solve_l2r_lr_dual	linear.cpp	/^void solve_l2r_lr_dual(const problem *prob, double *w, double eps, double Cp, double Cn)$/;"	f
+solve_sub_problem	linear.cpp	/^void Solver_MCSVM_CS::solve_sub_problem(double A_i, int yi, double C_yi, int active_i, double *alpha_new)$/;"	f	class:Solver_MCSVM_CS
+solver_type	linear.h	/^	int solver_type;$/;"	m	struct:parameter
+solver_type_table	linear.cpp	/^static const char *solver_type_table[]=$/;"	v	file:
+subXTv	linear.cpp	/^void l2r_l2_svc_fun::subXTv(double *v, double *XTv)$/;"	f	class:l2r_l2_svc_fun
+subXv	linear.cpp	/^void l2r_l2_svc_fun::subXv(double *v, double *Xv)$/;"	f	class:l2r_l2_svc_fun
+swap	linear.cpp	/^template <class T> static inline void swap(T& x, T& y) { T t=x; x=y; y=t; }$/;"	f	file:
+train	linear.cpp	/^model* train(const problem *prob, const parameter *param)$/;"	f
+train_one	linear.cpp	/^static void train_one(const problem *prob, const parameter *param, double *w, double Cp, double Cn)$/;"	f	file:
+transpose	linear.cpp	/^static void transpose(const problem *prob, feature_node **x_space_ret, problem *prob_col)$/;"	f	file:
+trcg	tron.cpp	/^int TRON::trcg(double delta, double *g, double *s, double *r)$/;"	f	class:TRON
+tron	tron.cpp	/^void TRON::tron(double *w)$/;"	f	class:TRON
+tron_print_string	tron.h	/^	void (*tron_print_string)(const char *buf);$/;"	m	class:TRON
+value	linear.h	/^	double value;$/;"	m	struct:feature_node
+w	linear.h	/^	double *w;$/;"	m	struct:model
+w_size	linear.cpp	/^		int w_size, l;$/;"	m	class:Solver_MCSVM_CS	file:
+weight	linear.h	/^	double* weight;$/;"	m	struct:parameter
+weight_label	linear.h	/^	int *weight_label;$/;"	m	struct:parameter
+x	linear.h	/^	struct feature_node **x;$/;"	m	struct:problem	typeref:struct:problem::feature_node
+x	predict.c	/^struct feature_node *x;$/;"	v	typeref:struct:feature_node
+x_space	train.c	/^struct feature_node *x_space;$/;"	v	typeref:struct:feature_node
+y	linear.h	/^	double *y;$/;"	m	struct:problem
+z	linear.cpp	/^	double *z;$/;"	m	class:l2r_l2_svc_fun	file:
+z	linear.cpp	/^	double *z;$/;"	m	class:l2r_lr_fun	file:
+~Solver_MCSVM_CS	linear.cpp	/^Solver_MCSVM_CS::~Solver_MCSVM_CS()$/;"	f	class:Solver_MCSVM_CS
+~TRON	tron.cpp	/^TRON::~TRON()$/;"	f	class:TRON
+~function	tron.h	/^	virtual ~function(void){}$/;"	f	class:function
+~l2r_l2_svc_fun	linear.cpp	/^l2r_l2_svc_fun::~l2r_l2_svc_fun()$/;"	f	class:l2r_l2_svc_fun
+~l2r_lr_fun	linear.cpp	/^l2r_lr_fun::~l2r_lr_fun()$/;"	f	class:l2r_lr_fun

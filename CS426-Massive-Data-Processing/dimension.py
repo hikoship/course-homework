@@ -1,0 +1,8 @@
+USER_NUM = 100000
+MOVIE_NUM = 17770
+DATE_NUM = 5115
+DATE_SPAN = 30
+UV_DIMEN = 16
+TERMINUS = 0.0002
+TRAIN_PATH = 'data/train.txt'
+TEST_PATH = 'data/test.txt'

@@ -1,0 +1,76 @@
+train100
+
+with time 100
+0.932988961538
+
+without time
+0.923746638571
+
+gamma = 0.02
+lamda = 0.05 no change
+
+iteration:  1
+1.1081548113
+iteration:  2
+0.959848374399
+iteration:  3
+0.943449337495
+iteration:  4
+0.92765602364
+iteration:  5
+0.915173985584
+iteration:  6
+0.905635937005
+iteration:  7
+0.897477860729
+iteration:  8
+0.890344956248
+iteration:  9
+0.884082155069
+iteration:  10
+0.878574037465
+
+Initialization:  70.275506
+iteration:  1
+1.0691555773
+iteration:  2
+0.958482279268
+iteration:  3
+0.928821266987
+iteration:  4
+0.911870540898
+iteration:  5
+0.899996731503
+iteration:  6
+0.890458983297
+iteration:  7
+0.882509044315
+iteration:  8
+0.875873763423
+iteration:  9
+0.87040908109
+iteration:  10
+0.865890048574
+iteration:  11
+0.862105136247
+iteration:  12
+0.85890064962
+iteration:  13
+0.856160985539
+iteration:  14
+0.85379411354
+iteration:  15
+0.851726523776
+iteration:  16
+0.849900282884
+iteration:  17
+0.848270320852
+iteration:  18
+0.846802064888
+iteration:  19
+0.845469475315
+iteration:  20
+0.844253308778
+Iteration:  10893.689572
+Write:  48.453836
+3.54600264457
