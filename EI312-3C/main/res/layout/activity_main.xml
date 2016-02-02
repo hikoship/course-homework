@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#37474f">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  KEY PRESS MODE  "
+        android:id="@+id/button"
+        android:background="#218bf6"
+        android:textColor="#ffff"
+        android:textSize="14sp"
+        android:onClick="keyPress"
+        android:layout_above="@+id/button6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  GRAVITY MODE  "
+        android:textSize="14sp"
+        android:id="@+id/button3"
+        android:background="#218bf6"
+        android:textColor="#ffff"
+        android:onClick="gravity"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  VOICE MODE  "
+        android:textSize="14sp"
+        android:background="#218bf6"
+        android:textColor="#ffff"
+        android:id="@+id/button4"
+        android:onClick="voice"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  GESTURE MODE  "
+        android:textSize="14sp"
+        android:background="#218bf6"
+        android:textColor="#ffff"
+        android:id="@+id/button6"
+        android:onClick="gesture"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  WEBCAM  "
+        android:textSize="14sp"
+        android:background="#218bf6"
+        android:textColor="#ffff"
+        android:id="@+id/button7"
+        android:onClick="webcam"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+</RelativeLayout>

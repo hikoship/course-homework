@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pw.hongyuan.bluetoothcontroller" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Connect"
+            android:label="@string/title_activity_connect" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Entrance"
+            android:label="@string/title_activity_entrance" >
+        </activity>
+        <activity
+            android:name=".Gesture"
+            android:label="@string/title_activity_gesture" >
+        </activity>
+        <activity
+            android:name=".Gravity"
+            android:label="@string/title_activity_gravity" >
+        </activity>
+        <activity
+            android:name=".Joystick"
+            android:label="@string/title_activity_joystick" >
+        </activity>
+        <activity
+            android:name=".KeyPress"
+            android:label="@string/title_activity_key_press" >
+        </activity>
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".Voice"
+            android:label="@string/title_activity_voice" >
+        </activity>
+        <activity
+            android:name=".WebCam"
+            android:label="@string/title_activity_web_cam" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bluetooth Controller</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_connect">Bluetooth Controller</string>
+    <string name="title_activity_driving">Driving</string>
+    <string name="title_activity_entrance">Entrance</string>
+    <string name="title_activity_gesture">Gesture</string>
+    <string name="title_activity_gravity">Gravity</string>
+    <string name="title_activity_joystick">Joystick</string>
+    <string name="title_activity_key_press">KeyPress</string>
+    <string name="title_activity_voice">Voice</string>
+
+    <string-array name="language">
+
+
+
+        　　　　　　                <item>English (US)</item>
+
+
+
+        　　　　　　                <item>普通话（中国大陆）</item>
+
+
+
+        　　　　　　                <item>日本語（日本）</item>
+    </string-array>
+
+    <string name="title_activity_web_cam">WebCam</string>
+
+</resources>
