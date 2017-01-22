@@ -12,6 +12,9 @@ import sys
 import os
 
 # create socket
+# arg1: socket.AF_INET (for processes over internet) or socket.AF_UNIX (for
+# processes in one machine);
+# arg2: socket.SOCK_STREAM (for TCP) or socket.SOCK_DGRAM (for UDP).
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 while True:
@@ -35,7 +38,7 @@ r_path = sock.recv(1024) # remote path
 
 
 while True:
-    # show local and remote 
+    # show local and remote
     print'------------------------------\nlocal: %s\nremote: %s\n------------------------------' % (l_path, r_path)
 
     # get command
@@ -75,7 +78,7 @@ while True:
             print 'Format: cld <dir name>'
             continue
         elif cmd.split()[1] == '..':
-            if l_path == sys.path[0] + '\client': 
+            if l_path == sys.path[0] + '\client':
                 pass
             else:
                 tmp = l_path.split('/')
@@ -121,8 +124,8 @@ while True:
         print sock.recv(1024)
 
 
-        
-    # download file 
+
+    # download file
     elif cmd.split()[0] == 'get':
         if len(cmd.split()) < 2:
             print 'Format: get <filename>'
@@ -166,13 +169,13 @@ while True:
             sock.send(cmd)
             while True:
                 buf = fp.read(1024)
-                if len(buf) == 0: 
+                if len(buf) == 0:
                     break
                     #connection.send('EOF')
                 else: sock.send(buf)
             print sock.recv(1024)
-            
-    
+
+
 
     # delete local file
     elif cmd.split()[0] == 'dell':
@@ -212,4 +215,3 @@ while True:
     # invalid command
     else:
         print 'Invalid command. Type "help" for command list.'
-
